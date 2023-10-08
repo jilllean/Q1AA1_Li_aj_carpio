@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+div.navbar div{
+    margin: 5px;
+}
+.navbar{
+    border: 1px solid #E5D3B3;
+    background-color:#D2B48C;
+    padding: 2px;
+    height: 70px;
+}
+.profile{
+    margin-left: 40px;
+    float: left;
+    width: 60px;
+    height: 60px;
+}
+#homelink{
+    background-color: #E5D3B3;
+    margin-right: 20px;
+}
+#homelink a{
+    color:  #664229;
+}
+#gallerylink{
+    background-color: #E5D3B3;
+    margin-right: 40px;
+}
+#gallerylink a{
+    color:  #664229;
+}
+.links {
+    border: 1px solid black;
+    display: inline;
+    text-transform: uppercase;
+    font-weight: 900;
+    transition: .4s;
+    padding: 8px;
+    float: right;
+    font-family: 'Playfair Display', serif;
+    border-radius: 1vh;
+}
+.links:hover{
+    transition: .4s;
+    font-size: larger;
+    padding: 10px;
+}
+#navlinks{
+    text-align: right;
+}
+.links a{
+    text-decoration: none;
+}
+
+.footer{
+    background-color: #b99976;
+    position: fixed;
+    bottom: 0%;
+    padding: 10px;
+    margin-bottom: 0px;
+    width: 100%;
+    height: 30px;
+}
+.copyrightres{
+    float: left;
+    position: fixed;
+    bottom: 15px;
+    left: 25px;
+    color: #664229;
+    font-style: italic;
+    font-family: 'Playfair Display', cursive;
+    font-size: small;
+}
+.socmedlinks img{
+    width: 30px;
+}
+#x, #fb, #ig{
+    float: right;
+    opacity: 0.7;
+    transition: .4s;
+    margin-right: 10px;
+}
+#x{
+    margin-right: 25px;
+}
+#x:hover, #fb:hover, #ig:hover{
+    opacity: 2;
+    transition: .4s;
+}
+.banner{
+    background-image: url('images/b4.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 620px;
+    opacity: .9;
+}
+.slogan{
+    position: absolute;
+    top: 20%;
+    left: 45%;
+}
+.slogan h1{
+    font-size: 5em;
+    font-family: 'Rubik', sans-serif;
+    color: white;
+}
+.slogan h1 span{
+    font-family: 'Young Serif', serif;
+    color: white;
+}
+.slogan p{
+    margin-top: 10px;
+    color: white;
+    font-size: larger;
+}
+.slogan a{
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    padding: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 1em;
+    font-weight: bold;
+    transition: .4s;
+}
+.bannerlink{
+    background-color: #b99976;
+}
+.bannerlink:hover{
+    transition: .4s;
+    font-size: larger;
+    padding: 6px;
+}
+.profile{
+    margin-left: 40px;
+    float: left;
+    width: 60px;
+    height: 60px;
+}
+#homelink{
+    background-color: #E5D3B3;
+    margin-right: 20px;
+}
+#homelink a{
+    color:  #664229;
+}
+#gallerylink{
+    background-color: #E5D3B3;
+    margin-right: 40px;
+}
+#gallerylink a{
+    color:  #664229;
+}
+.links {
+    border: 1px solid black;
+    display: inline;
+    text-transform: uppercase;
+    font-weight: 900;
+    transition: .4s;
+    padding: 8px;
+    float: right;
+    font-family: 'Playfair Display', serif;
+    border-radius: 1vh;
+}
+.links:hover{
+    transition: .4s;
+    font-size: larger;
+    padding: 10px;
+}
+#navlinks{
+    text-align: right;
+}
+.links a{
+    text-decoration: none;
+}
+.container{
+    margin: 10px;
+    margin-top: 65px;
+    text-align: center;
+    bottom: 70;
+}
+.container h1{
+    position: absolute;
+    color: #664229;
+    top: 12%;
+    left: 48%;
+}
+.pics img{
+    border: 5px solid #664229;
+    justify-content: center;
+}
+.oldpics img{
+    width: 12%;
+    margin-top: 8%;
+}
+.newpics img{
+    width: 12%;
+}
+
+  
+
